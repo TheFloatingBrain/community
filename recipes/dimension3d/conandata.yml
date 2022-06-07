@@ -1,6 +1,3 @@
-#sources:
-#  "0": 
-#    url: "https://github.com/angeluriot/Dimension3D/archive/refs/heads/master.zip"
 patches:
   "0.1":
     - patch_file: "patches/0001-conan-libs-0.patch"
