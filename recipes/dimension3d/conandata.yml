@@ -1,0 +1,15 @@
+#sources:
+#  "0": 
+#    url: "https://github.com/angeluriot/Dimension3D/archive/refs/heads/master.zip"
+patches:
+  "0.1":
+    - patch_file: "patches/0001-conan-libs-0.patch"
+    - patch_file: "patches/default_shader.patch"
+requirements:
+  - glm/0.9.9.8
+  - glew/2.2.0
+  - sfml/2.5.1
+  - imgui/cci.20220207+1.87.docking
+  - freetype/2.12.1
+  - imgui-sfml/2.5
+
